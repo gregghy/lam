@@ -1,4 +1,2 @@
 # lam
-Some school stuff
-
-project and exercise from school
+The LAM project + some teacher's exercise series
