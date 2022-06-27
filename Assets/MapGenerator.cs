@@ -40,7 +40,6 @@ public class MapGenerator : MonoBehaviour
     void Drunkard() {
         int startX = width/2;
         int startY = height/2;
-        int iteraction = 0;
         while (startX != width - 1 && startX != 0 && startY != height - 1 && startY != 0) {
             map [startX,startY] = 0;
             int direction = Random.Range(0, 4);
@@ -53,7 +52,6 @@ public class MapGenerator : MonoBehaviour
             } else {
                 startX = startX - 1;
             }
-            iteraction = iteraction + 1;
         }
     }
 
